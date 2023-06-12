@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.cartas {
+    position: relative;
+}
+
+body {
+    font-family: Arial;
+    height: 300vh;
+
+}
+
+.card {
+    width: 300px;
+    margin: 80px auto;
+    box-shadow: 0 0 5px;
+    border-radius: 1em;
+}
+
+.card-img {
+    width: 100%;
+    border-radius: 1em 1em 0 0;
+}
+
+
+.card-container {
+    padding: 10px;
+    text-align: center;
+}
+.card-title {
+    margin-bottom: 15px;
+}
+
+.card-paragraph {
+    line-height: 1.5;
+    text-align: start;
+}
+
+.card-button {
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px;
+    
+    background-color: steelblue;
+    color: #fff;
+    border-radius: 3em;
+
+}
+
+.lista {
+    display: inline;
+}
+
+.alina {
+    width: 300px;
+    margin: 80px auto;
+    box-shadow: 0 0 10px;
+    border-radius: 15px;
+    position: absolute;
+    left: 100px;
+}
+
+.alina img {
+    width: 100%;
+    border-radius: 16px 16px 0 0;
+}
+
+.alina-container{
+    padding: 10px;
+    text-align: center;
+}
+
+.alina-title {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.alina-paragraph {
+    margin-top: 10px;
+    line-height: 1.5;
+    text-align: start;
+}
+
+.alina-button {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px;
+
+    border-radius: 48px;
+    background-color: rgb(224, 104, 128);
+
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.pablo {
+    width: 300px;
+    margin: 80px auto;
+    box-shadow: 0 0 10px;
+    border-radius: 15px;
+    position: absolute;
+    left: 900px;
+}
+
+.pablo img {
+    width: 100%;
+    border-radius: 16px 16px 0 0;
+}
+
+.pablo-container {
+    text-align: center;
+    padding: 10px;
+}
+
+.pablo-title {
+    margin-bottom: 10px;
+}
+
+.pablo-paragraph {
+    text-align: start;
+    line-height: 1.5;
+}
+
+.pablo-button {
+    background-color: rgb(213, 166, 104);
+    color: #fff;
+    padding: 8px;
+    text-decoration: none;
+
+    border-radius: 48px;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.daniel {
+    width: 300px;
+    margin: 80px auto;
+    box-shadow: 0 0 10px;
+    border-radius: 16px;
+    position: absolute;
+    left: 500px;
+
+}
+
+.daniel-img {
+    width: 100%;
+    border-radius: 16px 16px 0 0;
+}
+
+.daniel-container {
+    padding: 10px;
+    text-align: center;
+}
+
+.daniel-title {
+    margin-bottom: 10px;
+}
+
+.daniel-paragraph {
+    text-align: start;
+    line-height: 1.5;
+}
+
+.daniel-button {
+    display: inline-block;
+    margin-top: 10px;
+
+    text-decoration: none;
+    color: #fff;
+
+    background-color: slateblue;
+    padding: 8px;
+    border-radius: 16px;
+}
